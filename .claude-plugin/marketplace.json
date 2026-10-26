@@ -1,0 +1,14 @@
+{
+  "name": "commute-brief-marketplace",
+  "description": "Open-Meteo 기반 출근길 날씨·미세먼지 브리핑 플러그인 commute-brief 마켓플레이스",
+  "owner": {
+    "name": "MincheolKang"
+  },
+  "plugins": [
+    {
+      "name": "commute-brief",
+      "description": "한국 도시의 날씨·미세먼지를 조회해 출근길 브리핑과 옷차림·우산 조언을 제공 (MCP + Skill + Agent + SessionStart 훅)",
+      "source": "./plugins/commute-brief"
+    }
+  ]
+}

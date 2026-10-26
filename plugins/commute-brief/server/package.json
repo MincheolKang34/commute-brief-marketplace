@@ -1,0 +1,18 @@
+{
+  "name": "commute-brief-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "commute-brief MCP 서버 (Open-Meteo 예보·대기질·지오코딩)",
+  "scripts": {
+    "build": "esbuild index.js --bundle --platform=node --format=esm --outfile=dist/index.js",
+    "test": "node --test \"../tests/*.test.js\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}

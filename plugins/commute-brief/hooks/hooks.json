@@ -1,0 +1,17 @@
+{
+  "description": "commute-brief: 하루 첫 세션에 한 줄 날씨·미세먼지 브리핑",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/session-brief.mjs\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

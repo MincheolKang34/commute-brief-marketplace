@@ -1,0 +1,10 @@
+{
+  "name": "commute-brief",
+  "version": "0.1.0",
+  "description": "Open-Meteo로 한국 도시의 날씨·미세먼지를 조회해 출근길 브리핑과 옷차림·우산 조언을 제공",
+  "author": {
+    "name": "MincheolKang"
+  },
+  "homepage": "https://github.com/MincheolKang34/commute-brief-marketplace",
+  "repository": "https://github.com/MincheolKang34/commute-brief-marketplace"
+}
