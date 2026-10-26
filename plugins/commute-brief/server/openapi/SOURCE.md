@@ -10,6 +10,6 @@
 - API 이용 약관: https://open-meteo.com/en/terms (무료는 비상업적 사용 전용, 분 600 / 시간 5,000 / 일 10,000 / 월 300,000회)
 
 지오코딩(`https://geocoding-api.open-meteo.com/v1/search`)은 저장소의 `openapi/`에 명세 파일이 없어서
-공식 문서(https://open-meteo.com/en/docs/geocoding-api)를 보고 `../lib.js`의 `geocode()`에 직접 구현했다.
+[공식 문서](https://open-meteo.com/en/docs/geocoding-api)를 보고 `../lib.js`의 `geocode()`에 직접 구현했다.
 
 `../lib.js`가 요청하는 변수(`current`, `daily`, `hourly` 값)가 이 명세에 존재하는지는 `../../tests/openapi.test.js`가 확인한다.
